@@ -1,0 +1,118 @@
+/*Colors and fonts*/
+body { 
+	background-color: EED6C4;
+	color: 6B4F4F;
+	font-family: fantasy;
+	font-size: 17px;
+	text-align: center;
+}
+
+h1 {
+	color: #2f323a;
+	font-family: fantasy;
+	font-weight: bold;
+	font-weight: 400;
+	letter-spacing: normal;
+	text-orientation: mixed;	
+	text-align: center;
+	font-size: 40px;
+}
+h2 {
+	color: #E78266;
+	font-family: monospace;
+	font-size: 35px;
+	font-weight: lighter;
+}
+a {
+	color: #2f323a;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 25px;
+}
+a: hover {
+	color: ghostwhite;
+}
+
+#img-cat {
+	width: 270px ;
+	border-radius: 30px;
+}
+.img-cutecat {
+	width: 80px;
+	border-radius: 50%;
+}
+.img-cat{
+	width: 100px;
+	border-radius: 80%;
+}
+#bio{
+	color: lightcoral;
+}
+#bio-france{
+	color: #9C528B
+}
+#bio-korea{
+	color: #4C243B;
+}
+
+.text-title{
+	color: #9C528B;
+}
+.presentation{
+	background-color: whitesmoke;
+	padding: 80px;
+	margin: 150px;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+}
+.cards{
+	background-color: whitesmoke;
+	padding: 60px;
+	margin: 150px;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+}
+
+
+/* Custom design with class */
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+	.container{
+		width:  400px;
+	}
+}
+
+
+.btn-blue{
+	background-color: #2F323A;
+	color: whitesmoke;
+	padding: 10px 10px;
+	border-radius: 4%;
+	margin: 20px 20px;
+	font-weight: 60px;
+}
+.btn-blue: hover {
+	background-color: ghostwhite;
+	color: white;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 60px;
+}
+.presentation p {
+	margin-bottom: 60px;
+}
+
+
